@@ -1,5 +1,3 @@
 #!/bin/bash
 
-python "$PYFILE" && pycodestyle "$PYFILE"
-
-exit $?
+python3 $PYFILE
